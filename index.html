@@ -64,27 +64,74 @@
 
     </section>
 
-    <div class="h-75 w-500 mt-30 text-white  flex gap-5 text-4xl" style="background-color: #212b59;">
-      <div class="ml-20 mt-10 ">
-        <p> Find your course </p>
-      </div>
-      <div class="ml-20 mt-10 ">
-        <input id="input1" type="text" style=" background-color: #d1d1d1;">
-      </div>
-      <div class="ml-60 mt-10">
+    <div class="h-75 w-500 mt-30 text-white text-4xl border-2 border-white p-6 " style="background-color: #212b59;">
+
+      <!-- first row -->
+      <div class="flex items-start ml-120 space-x-10">
+        <p>Find your course</p>
+        <input id="input1" type="text" class="px-2" style="background-color: #d1d1d1; width: 200px;">
         <p>Search</p>
+
+        <div>
+          <p>courses by A-Z</p>
+          <p>courses by Subject</p>
+        </div>
       </div>
-      <div class="ml-60 mt-8">
-        <p> cousers by A-Z</p>
-        <p> cousers by Subject</p>
+
+      <!-- Radio buttons -->
+      <div class="flex ml-10 mt-6 ml-150 space-x-10 text-base">
+        <label>
+          <input type="radio" name="level" value="undergraduate"> Undergraduate
+        </label>
+        <label>
+          <input type="radio" name="level" value="postgraduate_taught"> Postgraduate taught
+        </label>
+        <label>
+          <input type="radio" name="level" value="postgraduate_research"> Postgraduate research
+        </label>
       </div>
+
     </div>
+
+
 
   </div>
   <!-- end of  1 section -->
 
+  <!-- section 2 -->
+  <h2 class="text-bold text-3xl mt-15 ml-33 font-bold">
+    Discover the University of Liverpool
+  </h2>
+  <div class="h-150 w-500 flex justify-space gap-10 ml-30 mt-10">
+    <div>
+      <img src="./src/assets/university_compound.jpeg" class="h-130 w-200">
+    </div>
+    <div>
+      <p class="text-3xl ">
+        We are the University of Liverpool. Located at the heart <br>
+        of a thrilling world city, we are a dynamic institution of<br>
+        academic excellence and innovation, making a positive impact across the United Kingdom and the wider world.
+      </p>
+
+      <br>
+      <p class="text-2xl">
+        Since 1881, we've been at the forefront of world-class research and education,
+        <br> known for our cutting-edge
+        facilities and
+        relentless pursuit of excellence and achievement. <br> Find out how you can be part of our vibrant community and
+        explore the
+        work we’re doing with our famous home city.
+      </p>
+
+      <div class="mt-20">
+        <button class="mr-10 border-2 p-6"> Learn about us </button>
+        <button class="border-2 p-6"> Liverpool:Our city, our inspiration </button>
+      </div>
+    </div>
 
 
+
+  </div>
 
 
 </body>
