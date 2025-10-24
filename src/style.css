@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+#ok {
+  background-image: url('./assets/Jacket_person.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
